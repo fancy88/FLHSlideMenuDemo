@@ -62,7 +62,7 @@
     leftEdgeGesture.delegate = self;
     
     // 如果是scrollView的话，下面这行代码就可以了不用遵守代理协议，实现代理方法
-    //    [scrollView.panGestureRecognizer requireGestureRecognizerToFail:leftEdgeGesture];
+    // [scrollView.panGestureRecognizer requireGestureRecognizerToFail:leftEdgeGesture];
 }
 
 
