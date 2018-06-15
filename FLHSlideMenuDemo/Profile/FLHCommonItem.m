@@ -10,4 +10,13 @@
 
 @implementation FLHCommonItem
 
++ (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title subtitle:(NSString *)subtitle destVcClass:(Class)destVcClass{
+    FLHCommonItem *item = [[self alloc] init];
+    item.icon = icon;
+    item.title = title;
+    item.subtitle = subtitle;
+    item.destVcClass = destVcClass;
+    return item;
+}
+
 @end

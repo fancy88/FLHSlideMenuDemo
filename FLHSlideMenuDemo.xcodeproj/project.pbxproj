@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0435BF5F20D20FAB001BD074 /* FLHPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435BF5E20D20FAB001BD074 /* FLHPersonViewController.m */; };
+		0435BF6220D24E1E001BD074 /* FLHCommonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435BF6120D24E1E001BD074 /* FLHCommonItem.m */; };
+		0435BF6520D251DE001BD074 /* FLHProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435BF6420D251DE001BD074 /* FLHProfileCell.m */; };
+		04508A0320D3540A00CE7979 /* FLHPushBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04508A0220D3540A00CE7979 /* FLHPushBaseViewController.m */; };
+		04508A0920D354CB00CE7979 /* FLHMyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04508A0820D354CB00CE7979 /* FLHMyWalletViewController.m */; };
+		04508A0C20D35F9F00CE7979 /* FLHSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04508A0B20D35F9F00CE7979 /* FLHSearchViewController.m */; };
+		0453435E20D10042001BEA1C /* FLHAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453435D20D10042001BEA1C /* FLHAnimateViewController.m */; };
 		047E692320CE787D00C13203 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E692220CE787D00C13203 /* AppDelegate.m */; };
 		047E692620CE787D00C13203 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E692520CE787D00C13203 /* ViewController.m */; };
 		047E692920CE787D00C13203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E692720CE787D00C13203 /* Main.storyboard */; };
 		047E692B20CE787F00C13203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E692A20CE787F00C13203 /* Assets.xcassets */; };
 		047E692E20CE787F00C13203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E692C20CE787F00C13203 /* LaunchScreen.storyboard */; };
 		047E693120CE787F00C13203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E693020CE787F00C13203 /* main.m */; };
+		047E693920CE792500C13203 /* FLHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E693820CE792500C13203 /* FLHNavigationController.m */; };
+		047E694120CE79D600C13203 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E694020CE79D600C13203 /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0435BF5D20D20FAB001BD074 /* FLHPersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHPersonViewController.h; sourceTree = "<group>"; };
+		0435BF5E20D20FAB001BD074 /* FLHPersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHPersonViewController.m; sourceTree = "<group>"; };
+		0435BF6020D24E1E001BD074 /* FLHCommonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHCommonItem.h; sourceTree = "<group>"; };
+		0435BF6120D24E1E001BD074 /* FLHCommonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHCommonItem.m; sourceTree = "<group>"; };
+		0435BF6320D251DE001BD074 /* FLHProfileCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHProfileCell.h; sourceTree = "<group>"; };
+		0435BF6420D251DE001BD074 /* FLHProfileCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHProfileCell.m; sourceTree = "<group>"; };
+		04508A0120D3540A00CE7979 /* FLHPushBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHPushBaseViewController.h; sourceTree = "<group>"; };
+		04508A0220D3540A00CE7979 /* FLHPushBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHPushBaseViewController.m; sourceTree = "<group>"; };
+		04508A0720D354CB00CE7979 /* FLHMyWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHMyWalletViewController.h; sourceTree = "<group>"; };
+		04508A0820D354CB00CE7979 /* FLHMyWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHMyWalletViewController.m; sourceTree = "<group>"; };
+		04508A0A20D35F9F00CE7979 /* FLHSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHSearchViewController.h; sourceTree = "<group>"; };
+		04508A0B20D35F9F00CE7979 /* FLHSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHSearchViewController.m; sourceTree = "<group>"; };
+		0453435C20D10042001BEA1C /* FLHAnimateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHAnimateViewController.h; sourceTree = "<group>"; };
+		0453435D20D10042001BEA1C /* FLHAnimateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHAnimateViewController.m; sourceTree = "<group>"; };
 		047E691E20CE787D00C13203 /* FLHSlideMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLHSlideMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047E692120CE787D00C13203 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		047E692220CE787D00C13203 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +49,10 @@
 		047E692D20CE787F00C13203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047E692F20CE787F00C13203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047E693020CE787F00C13203 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047E693720CE792500C13203 /* FLHNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHNavigationController.h; sourceTree = "<group>"; };
+		047E693820CE792500C13203 /* FLHNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHNavigationController.m; sourceTree = "<group>"; };
+		047E693F20CE79D600C13203 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		047E694020CE79D600C13203 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +66,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0435BF5C20D20F68001BD074 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0435BF5D20D20FAB001BD074 /* FLHPersonViewController.h */,
+				0435BF5E20D20FAB001BD074 /* FLHPersonViewController.m */,
+				0435BF6020D24E1E001BD074 /* FLHCommonItem.h */,
+				0435BF6120D24E1E001BD074 /* FLHCommonItem.m */,
+				0435BF6320D251DE001BD074 /* FLHProfileCell.h */,
+				0435BF6420D251DE001BD074 /* FLHProfileCell.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0435BF6620D26BBD001BD074 /* ProfileSubConttrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				04508A0120D3540A00CE7979 /* FLHPushBaseViewController.h */,
+				04508A0220D3540A00CE7979 /* FLHPushBaseViewController.m */,
+				04508A0720D354CB00CE7979 /* FLHMyWalletViewController.h */,
+				04508A0820D354CB00CE7979 /* FLHMyWalletViewController.m */,
+			);
+			path = ProfileSubConttrollerView;
+			sourceTree = "<group>";
+		};
 		047E691520CE787D00C13203 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +109,20 @@
 		047E692020CE787D00C13203 /* FLHSlideMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				047E693E20CE79D600C13203 /* Category */,
+				0435BF6620D26BBD001BD074 /* ProfileSubConttrollerView */,
+				0435BF5C20D20F68001BD074 /* Profile */,
+				047E693A20CE796800C13203 /* ThirdParty */,
 				047E692120CE787D00C13203 /* AppDelegate.h */,
 				047E692220CE787D00C13203 /* AppDelegate.m */,
 				047E692420CE787D00C13203 /* ViewController.h */,
 				047E692520CE787D00C13203 /* ViewController.m */,
+				047E693720CE792500C13203 /* FLHNavigationController.h */,
+				047E693820CE792500C13203 /* FLHNavigationController.m */,
+				0453435C20D10042001BEA1C /* FLHAnimateViewController.h */,
+				0453435D20D10042001BEA1C /* FLHAnimateViewController.m */,
+				04508A0A20D35F9F00CE7979 /* FLHSearchViewController.h */,
+				04508A0B20D35F9F00CE7979 /* FLHSearchViewController.m */,
 				047E692720CE787D00C13203 /* Main.storyboard */,
 				047E692A20CE787F00C13203 /* Assets.xcassets */,
 				047E692C20CE787F00C13203 /* LaunchScreen.storyboard */,
@@ -69,6 +130,22 @@
 				047E693020CE787F00C13203 /* main.m */,
 			);
 			path = FLHSlideMenuDemo;
+			sourceTree = "<group>";
+		};
+		047E693A20CE796800C13203 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		047E693E20CE79D600C13203 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				047E693F20CE79D600C13203 /* UIImage+Extension.h */,
+				047E694020CE79D600C13203 /* UIImage+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +219,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				047E692620CE787D00C13203 /* ViewController.m in Sources */,
+				04508A0920D354CB00CE7979 /* FLHMyWalletViewController.m in Sources */,
 				047E693120CE787F00C13203 /* main.m in Sources */,
+				0435BF5F20D20FAB001BD074 /* FLHPersonViewController.m in Sources */,
+				047E694120CE79D600C13203 /* UIImage+Extension.m in Sources */,
+				0435BF6520D251DE001BD074 /* FLHProfileCell.m in Sources */,
+				0435BF6220D24E1E001BD074 /* FLHCommonItem.m in Sources */,
+				04508A0C20D35F9F00CE7979 /* FLHSearchViewController.m in Sources */,
+				047E693920CE792500C13203 /* FLHNavigationController.m in Sources */,
 				047E692320CE787D00C13203 /* AppDelegate.m in Sources */,
+				04508A0320D3540A00CE7979 /* FLHPushBaseViewController.m in Sources */,
+				0453435E20D10042001BEA1C /* FLHAnimateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +369,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 973U6QM2DQ;
 				INFOPLIST_FILE = FLHSlideMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,9 +388,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 973U6QM2DQ;
 				INFOPLIST_FILE = FLHSlideMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class FLHCommonItem;
 @interface FLHProfileCell : UITableViewCell
+
+@property (nonatomic, strong)FLHCommonItem *item;
 
 @end

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FLHAnimateViewController.h"
 
 @interface FLHPushBaseViewController : UIViewController
+
+/** animateViewController */
+@property (nonatomic, strong) FLHAnimateViewController *animateViewController;
 
 @end
