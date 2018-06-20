@@ -1,0 +1,30 @@
+//
+//  FLHSlideMenuDemo.pch
+//  FLHSlideMenuDemo
+//
+//  Created by mac on 2018/6/15.
+//  Copyright © 2018年 mac. All rights reserved.
+//
+
+#ifndef FLHSlideMenuDemo_pch
+#define FLHSlideMenuDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//weakself 宏
+#define weakSelf(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+/**** 设置RGBA颜色值 *****/
+#define UIColorFromRGBA(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+#define UIColorFromRGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0f]
+// 十六进制转UIColor
+#define UIColorFromRGBHEX(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//系统默认线条颜色
+#define LineColor  [UIColor colorWithRed:(200/255.0f) green:(199/255.0f) blue:(204/255.0f) alpha:1.0f]
+
+
+#endif /* FLHSlideMenuDemo_pch */

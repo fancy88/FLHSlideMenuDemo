@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"test";
+    self.title = @"Test";
     self.view.backgroundColor = [UIColor greenColor];
     // Do any additional setup after loading the view.
 }

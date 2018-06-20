@@ -74,9 +74,10 @@
     
     UILabel *titleLabel = [[UILabel alloc] init];
     titleLabel.frame = CGRectMake(0, FBStatusBarH, [UIScreen mainScreen].bounds.size.width, 44);
-    titleLabel.text = @"摩 拜 单 车";
+    titleLabel.text = @"测 试 效 果";
     titleLabel.font = [UIFont systemFontOfSize:20];
-    titleLabel.textColor = [UIColor colorWithRed:222 / 255.0 green:91 / 255.0 blue:78 / 255.0 alpha:1.0];
+   // titleLabel.textColor = [UIColor colorWithRed:222 / 255.0 green:91 / 255.0 blue:78 / 255.0 alpha:1.0];
+    titleLabel.textColor = UIColorFromRGB(222, 91, 78);
     titleLabel.textAlignment = NSTextAlignmentCenter;
     [navBarView addSubview:titleLabel];
     

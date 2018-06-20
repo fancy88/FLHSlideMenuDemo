@@ -22,6 +22,7 @@
 		047E693120CE787F00C13203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E693020CE787F00C13203 /* main.m */; };
 		047E693920CE792500C13203 /* FLHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E693820CE792500C13203 /* FLHNavigationController.m */; };
 		047E694120CE79D600C13203 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E694020CE79D600C13203 /* UIImage+Extension.m */; };
+		98248E76C6ED4746BAC12761 /* libPods-FLHSlideMenuDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B497E3D3C27CA806DCE8E3 /* libPods-FLHSlideMenuDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		04508A0820D354CB00CE7979 /* FLHMyWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHMyWalletViewController.m; sourceTree = "<group>"; };
 		04508A0A20D35F9F00CE7979 /* FLHSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHSearchViewController.h; sourceTree = "<group>"; };
 		04508A0B20D35F9F00CE7979 /* FLHSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHSearchViewController.m; sourceTree = "<group>"; };
+		04508A0F20D3C0F300CE7979 /* FLHSlideMenuDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHSlideMenuDemo.pch; sourceTree = "<group>"; };
 		0453435C20D10042001BEA1C /* FLHAnimateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLHAnimateViewController.h; sourceTree = "<group>"; };
 		0453435D20D10042001BEA1C /* FLHAnimateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHAnimateViewController.m; sourceTree = "<group>"; };
 		047E691E20CE787D00C13203 /* FLHSlideMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLHSlideMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +55,9 @@
 		047E693820CE792500C13203 /* FLHNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLHNavigationController.m; sourceTree = "<group>"; };
 		047E693F20CE79D600C13203 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		047E694020CE79D600C13203 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		47B497E3D3C27CA806DCE8E3 /* libPods-FLHSlideMenuDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLHSlideMenuDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BCCC788A36C023796A68A6 /* Pods-FLHSlideMenuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLHSlideMenuDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLHSlideMenuDemo/Pods-FLHSlideMenuDemo.release.xcconfig"; sourceTree = "<group>"; };
+		939A54487C9FB5158F1A7F72 /* Pods-FLHSlideMenuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLHSlideMenuDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLHSlideMenuDemo/Pods-FLHSlideMenuDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98248E76C6ED4746BAC12761 /* libPods-FLHSlideMenuDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +101,8 @@
 			children = (
 				047E692020CE787D00C13203 /* FLHSlideMenuDemo */,
 				047E691F20CE787D00C13203 /* Products */,
+				20E66C15DE9B4EA078ABD62C /* Pods */,
+				99C5BF033E377A123F0E5317 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +136,7 @@
 				047E692C20CE787F00C13203 /* LaunchScreen.storyboard */,
 				047E692F20CE787F00C13203 /* Info.plist */,
 				047E693020CE787F00C13203 /* main.m */,
+				04508A0F20D3C0F300CE7979 /* FLHSlideMenuDemo.pch */,
 			);
 			path = FLHSlideMenuDemo;
 			sourceTree = "<group>";
@@ -148,6 +157,23 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		20E66C15DE9B4EA078ABD62C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939A54487C9FB5158F1A7F72 /* Pods-FLHSlideMenuDemo.debug.xcconfig */,
+				54BCCC788A36C023796A68A6 /* Pods-FLHSlideMenuDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99C5BF033E377A123F0E5317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47B497E3D3C27CA806DCE8E3 /* libPods-FLHSlideMenuDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 047E693420CE787F00C13203 /* Build configuration list for PBXNativeTarget "FLHSlideMenuDemo" */;
 			buildPhases = (
+				6A08ECEC60CC94B902C06DAA /* [CP] Check Pods Manifest.lock */,
 				047E691A20CE787D00C13203 /* Sources */,
 				047E691B20CE787D00C13203 /* Frameworks */,
 				047E691C20CE787D00C13203 /* Resources */,
@@ -212,6 +239,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A08ECEC60CC94B902C06DAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLHSlideMenuDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		047E691A20CE787D00C13203 /* Sources */ = {
@@ -367,11 +415,14 @@
 		};
 		047E693520CE787F00C13203 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939A54487C9FB5158F1A7F72 /* Pods-FLHSlideMenuDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 973U6QM2DQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FLHSlideMenuDemo/FLHSlideMenuDemo.pch";
 				INFOPLIST_FILE = FLHSlideMenuDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -386,11 +437,14 @@
 		};
 		047E693620CE787F00C13203 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BCCC788A36C023796A68A6 /* Pods-FLHSlideMenuDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 973U6QM2DQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FLHSlideMenuDemo/FLHSlideMenuDemo.pch";
 				INFOPLIST_FILE = FLHSlideMenuDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (

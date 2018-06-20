@@ -141,6 +141,7 @@ static CGFloat const animationTime = 0.4;
 - (void)showAnimation{
     self.view.userInteractionEnabled = NO;
     // 根据当前x,计算隐藏时间
+    NSLog(@"-----起点值: %lf-----", self.leftVc.view.frame.origin.x);
     CGFloat time = fabs(self.leftVc.view.frame.origin.x / self.leftVc.view.frame.size.width) * animationTime;
     [UIView animateWithDuration:time animations:^{
         self.leftVc.view.frame = CGRectMake(0, 0, self.leftVc.view.frame.size.width, [UIScreen mainScreen].bounds.size.height);
