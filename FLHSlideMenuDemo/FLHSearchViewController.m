@@ -17,13 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Test";
-    self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = [UIColor cyanColor];
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.navigationController popViewControllerAnimated: YES];
 }
 
 /*
